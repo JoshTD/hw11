@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-12">
+        <h5>Добавить датчик</h5>
+    </div>
+    <div class="col-4"></div>
+    <div class="col-2">
+        <input type="text" 
+        class="form-control" 
+        placeholder="Название датчика"
+        [(ngModel)]='name'>
+    </div>
+    <div class="col-2">
+        <select class="custom-select" [(ngModel)]="status">
+            <option [ngValue]="false">Выкл</option>
+            <option [ngValue]="true">Вкл</option>
+        </select>
+    </div>
+    <div class="col-4"></div>
+    <div class="col-12 mt-2 mb-4">
+        <button class="btn btn-outline-primary btn-sm"
+        (click)="onAddDet()"
+        >Добавить датчик</button>
+    </div>
+</div>

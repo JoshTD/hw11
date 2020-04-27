@@ -1,0 +1,26 @@
+* {
+    text-align: center;
+    margin: 0 auto;
+}
+.card {
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+}
+.card-body {
+    margin: 0;
+    border-radius: 0.5rem;
+}
+.green {
+    background-color: #00CC00;
+}
+.red {
+    background-color: #CC0000;
+}
+button {
+    width: 6rem;
+    padding: 0.2rem;
+    background-color: white;
+}
+button:first-of-type {
+    margin-bottom: 0.25rem;
+}
